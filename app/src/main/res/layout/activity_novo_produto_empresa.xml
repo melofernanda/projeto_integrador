@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.NovoProdutoEmpresaActivity">
+
+    <!-- Inclusão do toolbar-->
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- LinearLayout vertical para os itens aparecerem um sobre o outro-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- CircleImageView para margem circular de imagem -->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageProduto"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/perfil" />
+
+        <!-- EditText para editar o nome do produto -->
+        <EditText
+            android:id="@+id/editProdutoNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Produto"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <!-- Edittext para editar a descrição do produto -->
+        <EditText
+            android:id="@+id/editProdutoDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Descrição"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <!-- Edittext para editar validade do produto -->
+        <EditText
+            android:id="@+id/editProdutoValidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Prazo de validade"
+            android:inputType="text"
+            android:padding="16dp" />
+
+        <!-- Edittext para editar o preço do produto -->
+        <EditText
+            android:id="@+id/editProdutoPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/bg_edit_text"
+            android:ems="10"
+            android:hint="Preço"
+            android:inputType="numberDecimal"
+            android:padding="16dp" />
+
+        <!-- Botão para salvar os dados do produto por meio da função ValidarDadosProduto -->
+        <Button
+            android:id="@+id/buttonAcesso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="validarDadosProduto"
+            android:padding="16dp"
+            android:text="Salvar"
+            android:theme="@style/botaoPadrao" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

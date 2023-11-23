@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042777597078",
+    "firebase_url": "https://mercadodealimentosj-default-rtdb.firebaseio.com",
+    "project_id": "mercadodealimentosj",
+    "storage_bucket": "mercadodealimentosj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042777597078:android:34331283d7a110ada4ceb7",
+        "android_client_info": {
+          "package_name": "com.example.mercadodealimentosjava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042777597078-i50omfc7ql5l0g72mkbh7s51scft76an.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mercadodealimentosjava",
+            "certificate_hash": "3d5f59683ae45fc4d310891836e68931896669d8"
+          }
+        },
+        {
+          "client_id": "1042777597078-ro0gbhvn4sq1d1mfcj10h699ucroutmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnI6wbo9K5SHDrG87UIENH4MqqZ50x4H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042777597078-ro0gbhvn4sq1d1mfcj10h699ucroutmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

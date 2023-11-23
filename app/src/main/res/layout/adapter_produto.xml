@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Adpter que será usado na RecyclerView para trazer as informações do produto -->
+
+    <!-- TextView com o nome do produto -->
+    <TextView
+        android:id="@+id/textNomeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Batata doce"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- TextView com a descrição do produto -->
+    <TextView
+        android:id="@+id/textDescricaoProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Batata doce congelada"
+        android:textSize="14sp" />
+
+    <!-- TextView com a validade do produto -->
+    <TextView
+        android:id="@+id/textValidadeProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="11/11/2023"
+        android:textSize="14sp" />
+
+    <!-- TextView com o preço do produto -->
+    <TextView
+        android:id="@+id/textPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$ 19.90"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Divisor para separar um produto do outro -->
+    <include layout="@layout/divisor" />
+
+</LinearLayout>
